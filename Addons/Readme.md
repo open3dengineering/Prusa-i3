@@ -9,7 +9,9 @@ The spool holder is clamped ontop into the Aluminium Frame facing to the backsid
 We left enough place so all 1KG spools will fit.
 
 Files:
-*
+
+* i3_spool_holder.stl
+* ../Blender/i3_spool_holder.blend
 
 
 Power Supply Cover
