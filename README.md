@@ -9,7 +9,7 @@ This is a improved version of the Prusa i3 3D Printer.
 Improvements:
 -------------
 * Aluminium Frame has now a Y-Plate with 3 points to attach the Heatbed ( compatible with MK2a + MK2b  Heatbed )
-* Aluminium Frame had a some little bugs + the milling time has decreased to 50%. 
+* Aluminium Frame had some little bugs + the milling time has decreased to 50%. 
 * x-motor-end has been moved 5mm outwards to don't bump into the RAMPS electronics board.
 * teeth profile on the x-carriage has been seperated to print better ( teeth part is printed with a 0.3mm nozzle layer height 0.2mm )
 * y-beltholder has been improved to print faster
