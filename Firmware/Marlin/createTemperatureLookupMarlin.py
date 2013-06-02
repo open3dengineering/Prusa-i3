@@ -78,7 +78,7 @@ def main(argv):
     r2 = 1641.9;
     t3 = 250;
     r3 = 226.15;
-    num_temps = int(72);
+    num_temps = int(36);
     
     try:
         opts, args = getopt.getopt(argv, "h", ["help", "rp=", "t1=", "t2=", "t3=", "num-temps="])
