@@ -134,11 +134,10 @@
   #define K1 0.95 //smoothing factor withing the PID
   #define PID_dT ((16.0 * 8.0)/(F_CPU / 64.0 / 256.0)) //sampling period of the temperature routine
 
-// If you are using a preconfigured hotend then you can use one of the value sets by uncommenting it
-// Ultimaker
-    #define  DEFAULT_Kp 22.2
-    #define  DEFAULT_Ki 1.08
-    #define  DEFAULT_Kd 114
+// Ceramic Chess Hotend
+    #define  DEFAULT_Kp 19.66
+    #define  DEFAULT_Ki 1.41
+    #define  DEFAULT_Kd 68.74
 
 // Makergear
 //    #define  DEFAULT_Kp 7.0
@@ -287,8 +286,8 @@ const bool Z_ENDSTOPS_INVERTING = true; // set to true to invert the logic of th
 
 // default settings
 
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {80, 80, (200.0*8/0.8)*1, 1100}  // default steps per unit for ultimaker
-#define DEFAULT_MAX_FEEDRATE          {500, 500, 5, 45}    // (mm/sec)
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {80, 80, (200.0*8/0.8)*1, 1178}  // default steps per unit for ultimaker
+#define DEFAULT_MAX_FEEDRATE          {500, 500, 2, 45}    // (mm/sec)
 #define DEFAULT_MAX_ACCELERATION      {9000,9000,100,300}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for skeinforge 40+, for older versions raise them a lot.
 
 #define DEFAULT_ACCELERATION          3000    // X, Y, Z and E max acceleration in mm/s^2 for printing moves

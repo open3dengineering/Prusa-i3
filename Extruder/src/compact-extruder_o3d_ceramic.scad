@@ -150,8 +150,10 @@ module jhead_mount() {
 
 	//translate([0,54,12]) cube([33, 2, 20]);
       translate([32,61,18.58]) rotate([0,-90,0]) bolt(length=30, d=3.6);
+	
+	translate([7.56,54,-12]) cube([16.94, 5, 20]);
    }
-   translate([-4,-4,0])fan_mount();
+   translate([-4,-8,0])fan_mount();
 }
 
 
