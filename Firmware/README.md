@@ -6,5 +6,8 @@ To use the Taurino Classic and Taurino Power ( both Arduino Mega clones ) on Win
 *install the USB driver from [ftp://ftp.open3dengineering.org/pub/Taurino_USB_Driver_Windows/RRD_RUMBA_TAURINO_DriverSetup.exe](ftp://ftp.open3dengineering.org/pub/Taurino_USB_Driver_Windows/RRD_RUMBA_TAURINO_DriverSetup.exe)*
 
 
+Than install Marlin firmware with Arduino.
+
+
 
 
